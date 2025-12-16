@@ -104,7 +104,7 @@ python main.py organize_folder "paper" \
 ```
 下图所示为分类整理前后的文件夹结构
 
-![整理前文件夹](results\before_organize.png)   ![整理后文件夹](results\after_organize.png)
+![整理前文件夹](results/before_organize.png)   ![整理后文件夹](results/after_organize.png)
 
 
 ### 3 基于论文内容的 RAG 问答
@@ -112,7 +112,7 @@ python main.py organize_folder "paper" \
 ```bash
 python main.py chat_paper "什么是 CTTA？"
 ```
-![RAG](results\RAG.png)
+![RAG](results/RAG.png)
 
 系统将：
 1. 对问题进行向量化
@@ -142,7 +142,7 @@ python main.py index_images "photos"
 python main.py search_image "海边的日落"
 ```
 
-![search](results\search.png)
+![search](results/search.png)
 
 系统将返回：
 - 最相关的图片文件
